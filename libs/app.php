@@ -1,5 +1,5 @@
 <?php 
-require_once 'controllers/errorController.php';
+require_once 'controllers/errorCargar.php';
 
 class App{
     function __construct(){
@@ -10,10 +10,10 @@ class App{
 
         // cuando se ingresa sin definir controlador
         if(empty($url[0])){
-            $archivoController = 'controllers/mainController.php';
+            $archivoController = 'controllers/main.php';
             require_once $archivoController;
-            $controller = new MainController();
-            $controller->loadModel('mainController');
+            $controller = new Main();
+            $controller->loadModel('main');
             $controller->render();
             return false;
         }

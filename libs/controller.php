@@ -5,8 +5,8 @@
  */
 class Controller {
     function __construct(){
-        echo '<p>Controlador base</p>';
         $this->view = new View();
+        echo "<p>Controlador Base</p>";
     }
 
     function loadModel($model) {
