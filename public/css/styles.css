@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin: 0px 10px;
+    font-size: 40px;
+    color: #BD00FF;
+}
+
+.logo__nombre--azul {
+    color: #0047FF;
+}
+
+.buscador {
+    width: 240px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.buscador__barra{
+    width: 90%;
+    height: 40px;
+    border: none;
+}
+.fa-map-marker-alt{
+    font-size: 30px;
+}
+
+.navegacion{
+    width: 40%;
+}
+.navegacion__enlaces {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegacion__enlaces--enlace {
+    font-size: 16px;
+    color: black;
+}
+

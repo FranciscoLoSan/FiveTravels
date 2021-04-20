@@ -2,7 +2,7 @@
 class Main extends Controller{
     function __construct(){
         parent::__construct();
-        echo "<p>Controlador main</p>";
+        //echo "<p>Controlador main</p>";
     }
 
     function render() {

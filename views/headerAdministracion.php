@@ -16,17 +16,14 @@
             <h1 class="logo__nombre">Five<span class="logo__nombre--azul">Travels</span><span class="logo__nombre--azul"><i class="fas fa-globe"></i></span></h1>
         </div>
 
-        <div class="buscador">
-            <input type="text" name="" id="" class="buscador__barra">
-            <i class="fas fa-map-marker-alt"></i>
-        </div>
+        
         
         <nav class="navegacion">
             <ul class="navegacion__enlaces">
-                <li><a href="<?php echo constant('URL') ?>usuario" class="navegacion__enlaces--enlace">Iniciar</a></li>
-                <li><a href="<?php echo constant('URL') ?>paquete" class="navegacion__enlaces--enlace">Ofertas</a></li>
-                <li><a href="<?php echo constant('URL') ?>destiono" class="navegacion__enlaces--enlace">Mis vaijes</a></li>
-                <li><a href="<?php echo constant('URL') ?>destiono" class="navegacion__enlaces--enlace">Contacto</a></li>
+                <li><a href="<?php echo constant('URL') ?>usuario" class="navegacion__enlaces--enlace">Usuarios</a></li>
+                <li><a href="<?php echo constant('URL') ?>paquete" class="navegacion__enlaces--enlace">Paquetes</a></li>
+                <li><a href="<?php echo constant('URL') ?>destino" class="navegacion__enlaces--enlace">Destinos</a></li>
+                <li><a href="#">Cerrar sesión</a></li>
             </ul>
         </nav>
     </header>

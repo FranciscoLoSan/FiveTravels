@@ -7,14 +7,6 @@
     <title>FiveTravels</title>
 </head>
 <body>
-    <?php 
-        require 'views/lateral.php';
-    ?>
-    
-    <div class="contenedor">
-        <div class="contenedor__tabla">
-        
-        </div>
-    </div>
+    <h1>Error</h1>
 </body>
 </html>
