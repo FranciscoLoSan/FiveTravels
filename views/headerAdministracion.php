@@ -23,7 +23,7 @@
                 <li><a href="<?php echo constant('URL') ?>usuario" class="navegacion__enlaces--enlace">Usuarios</a></li>
                 <li><a href="<?php echo constant('URL') ?>paquete" class="navegacion__enlaces--enlace">Paquetes</a></li>
                 <li><a href="<?php echo constant('URL') ?>destino" class="navegacion__enlaces--enlace">Destinos</a></li>
-                <li><a href="#">Cerrar sesión</a></li>
+                <li><a href="#" class="navegacion__enlaces--enlace">Cerrar sesión</a></li>
             </ul>
         </nav>
     </header>

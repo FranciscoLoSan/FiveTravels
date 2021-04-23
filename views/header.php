@@ -23,10 +23,10 @@
         
         <nav class="navegacion">
             <ul class="navegacion__enlaces">
-                <li><a href="<?php echo constant('URL') ?>usuario" class="navegacion__enlaces--enlace">Iniciar</a></li>
-                <li><a href="<?php echo constant('URL') ?>paquete" class="navegacion__enlaces--enlace">Ofertas</a></li>
-                <li><a href="<?php echo constant('URL') ?>destiono" class="navegacion__enlaces--enlace">Mis vaijes</a></li>
-                <li><a href="<?php echo constant('URL') ?>destiono" class="navegacion__enlaces--enlace">Contacto</a></li>
+                <li><a href="<?php echo constant('URL') ?>login" class="navegacion__enlaces--enlace">Iniciar</a></li>
+                <li><a href="<?php echo constant('URL') ?>ofertas" class="navegacion__enlaces--enlace">Ofertas</a></li>
+                <li><a href="<?php echo constant('URL') ?>misViajes" class="navegacion__enlaces--enlace">Mis vaijes</a></li>
+                <li><a href="<?php echo constant('URL') ?>contacto" class="navegacion__enlaces--enlace">Contacto</a></li>
             </ul>
         </nav>
     </header>

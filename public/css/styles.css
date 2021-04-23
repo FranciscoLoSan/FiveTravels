@@ -38,8 +38,10 @@
     height: 40px;
     border: none;
 }
+
 .fa-map-marker-alt{
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 2px;
 }
 
 .navegacion{
@@ -51,7 +53,12 @@
 }
 
 .navegacion__enlaces--enlace {
-    font-size: 16px;
+    font-size: 20px;
     color: black;
+    transition: all 200ms;
 }
 
+.navegacion__enlaces--enlace:hover {
+    font-size: 25px;
+    color: #BD00FF;
+}
